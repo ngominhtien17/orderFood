@@ -1,0 +1,237 @@
+﻿@{
+    ViewData["Title"] = "Trang chủ Admin";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">Tổng quan</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="active">
+                        <a asp-area="Admin" asp-controller="Home" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Bảng điều khiển</span>
+                            <span class="pcoded-mcaret"></span>
+                        
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Danh mục món ăn </div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Danh mục</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Kho hàng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Quản lý kho hàng</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Trạng thái đơn hàng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Cập nhật trạng thái</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Danh sách tài khoản</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Tài khoản</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Phản hồi người dùng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Phản hồi</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Báo cáo</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Doanh thu</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="pcoded-content">
+            <div class="pcoded-inner-content">
+                <div class="main-body">
+                    <div class="page-wrapper">
+
+                        <div class="card borderless-card">
+                            <div class="card-block danger-breadcrumb">
+                                <div class="breadcrumb-header">
+                                    <ul class="breadcrumb-title">
+                                        <li class="breadcrumb-item">
+                                            <a href="#!">
+                                                <i class="icofont icofont-home"></i>
+                                            </a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a asp-area="Admin" asp-controller="Home" asp-action="Index">Bảng điều khiển</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card widget-card-1">
+                                    <div class="card-block-small">
+                                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                                            <i class="icofont icofont-cup-cake bg-c-blue card1-icon"></i>
+                                        </a>
+                                        <span class="text-c-blue f-w-600">Danh mục</span>
+                                        <h4>@ViewBag.Cate</h4>
+                                        <div>
+                                            <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                                                <span class="f-left m-t-10 text-muted">
+                                                    <i class=" text-c-blue f-16 ti-eye m-r-10"></i>Xem chi tiết
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card widget-card-1">
+                                    <div class="card-block-small">
+                                        <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                                            <i class="icofont icofont-ui-home bg-c-pink card1-icon"></i>
+                                        </a>
+                                        <span class="text-c-pink f-w-600">Kho hàng</span>
+                                        <h4>@ViewBag.MyValue</h4>
+                                        <div>
+                                            <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                                                <span class="f-left m-t-10 text-muted">
+                                                    <i class=" text-c-pink f-16 ti-eye m-r-10"></i>Xem chi tiết
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card widget-card-1">
+                                    <div class="card-block-small">
+                                        <a asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                                            <i class="icofont icofont-truck-loaded bg-c-blue card1-icon"></i>
+                                        </a>
+                                        <span class="text-c-blue f-w-600">Trạng thái đơn</span>
+                                        <h4>@ViewBag.Order</h4>
+                                        <div>
+                                            <a asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                                                <span class="f-left m-t-10 text-muted">
+                                                    <i class=" text-c-blue f-16 ti-eye m-r-10"></i>Xem chi tiết
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card widget-card-1">
+                                    <div class="card-block-small">
+                                        <a asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">
+                                            <i class="icofont icofont-people bg-c-pink card1-icon"></i>
+                                        </a>
+                                        <span class="text-c-blue f-w-600">Tài khoản</span>
+                                        <h4>@ViewBag.User</h4>
+                                        <div>
+                                            <a asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">
+                                                <span class="f-left m-t-10 text-muted">
+                                                    <i class=" text-c-pink f-16 ti-eye m-r-10"></i>Xem chi tiết
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card widget-card-1">
+                                    <div class="card-block-small">
+                                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                                            <i class="icofont icofont-social-google-talk bg-c-pink card1-icon"></i>
+                                        </a>
+                                        <span class="text-c-pink f-w-600">Phản hồi</span>
+                                        <h4>0</h4>
+                                        <div>
+                                            <span class="f-left m-t-10 text-muted">
+                                                <i class=" text-c-pink f-16 ti-eye m-r-10"></i>Xem chi tiết
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-xl-3">
+                                <div class="card widget-card-1">
+                                    <div class="card-block-small">
+                                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                                            <i class="icofont icofont-money bg-c-blue card1-icon"></i>
+                                        </a>
+                                        <span class="text-c-blue f-w-600">Doanh thu</span>
+                                        <h4>@(ViewBag.DoanhThu.ToString("#,##0")) VNĐ</h4>
+                                        <div>
+                                            <span class="f-left m-t-10 text-muted">
+                                                <i class=" text-c-blue f-16 ti-eye m-r-10"></i>Xem chi tiết
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="styleSelector">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

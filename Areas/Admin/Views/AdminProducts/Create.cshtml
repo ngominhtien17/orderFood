@@ -1,0 +1,179 @@
+﻿@model OrderFood.Models.Product
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">Tổng quan</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="Home" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Bảng điều khiển</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Danh mục món ăn </div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Danh mục</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Kho hàng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="active">
+                        <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Quản lý kho hàng</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Trạng thái đơn hàng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Cập nhật trạng thái</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Danh sách tài khoản</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Tài khoản</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Phản hồi người dùng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Phản hồi</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Báo cáo</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Doanh thu</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="pcoded-content">
+            <div class="pcoded-inner-content">
+                <div class="main-body">
+                    <div class="page-wrapper">
+
+                        <div class="card borderless-card">
+                            <div class="card-block danger-breadcrumb">
+                                <div class="breadcrumb-header">
+                                    <ul class="breadcrumb-title">
+                                        <li class="breadcrumb-item">
+                                            <a href="#!">
+                                                <i class="icofont icofont-home"></i>
+                                            </a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a asp-area="Admin" asp-controller="Home" asp-action="Index">Bảng điều khiển</a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a asp-action="Index">Quản lý kho hàng</a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            Thêm món
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <form asp-action="Create" method="post" enctype="multipart/form-data">
+                                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                    <div class="form-group">
+                                        <label asp-for="Name" class="control-label"><b>Tên món ăn:</b></label>
+                                        <input asp-for="Name" class="form-control" type="text" title="" data-toggle="tooltip" data-original-title="Tên món ăn" />
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Description" class="control-label"><b>Mô tả món ăn:</b></label>
+                                        <input asp-for="Description" class="form-control" />
+                                        <span asp-validation-for="Description" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Price" class="control-label"><b>Giá:</b></label>
+                                        <input asp-for="Price" class="form-control" />
+                                        <span asp-validation-for="Price" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Quantity" class="control-label"><b>Số lượng nhập kho:</b></label>
+                                        <input asp-for="Quantity" class="form-control" />
+                                        <span asp-validation-for="Quantity" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="ImageUrl" class="control-label"><b>Hình ảnh:</b></label>
+                                        <input asp-for="ImageUrl" class="form-control" type="file" name="filename">
+                                        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="CategoryId" class="control-label"><b>Danh mục:</b></label>
+                                        <select asp-for="CategoryId" class="custom-select form-control" style=" min-width: 200px;" asp-items="ViewBag.DanhMuc">
+                                            <option value="0" disabled selected>Chọn danh mục</option>
+                                        </select>
+                                        @* <label asp-for="CategoryId" class="control-label"></label>
+                                        <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select> *@
+                                    </div>
+                                    <div>
+                                        <div class="row">
+                                            <div class="form-group col-md-4">
+                                                <input type="submit" value="Thêm" class="btn btn-primary" />
+                                            </div>
+
+                                            <div>
+                                                <a class="btn btn-primary m-b-0" asp-action="Index">Quay lại danh sách</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="styleSelector">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

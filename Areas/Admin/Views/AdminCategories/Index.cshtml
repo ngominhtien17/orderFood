@@ -1,0 +1,183 @@
+﻿@using PagedList.Core.Mvc
+@model PagedList.Core.IPagedList<OrderFood.Models.Category>
+
+@{
+    int CurrentPage = ViewBag.CurrentPage;
+    ViewData["Title"] = "Danh mục";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="pcoded-main-container">
+    <div class="pcoded-wrapper">
+        <nav class="pcoded-navbar">
+            <div class="sidebar_toggle"><a href="#"><i class="icon-close icons"></i></a></div>
+            <div class="pcoded-inner-navbar main-menu">
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.navigation">Tổng quan</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="Home" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-home"></i><b>D</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.dash.main">Bảng điều khiển</span>
+                            <span class="pcoded-mcaret"></span>
+
+                        </a>
+                    </li>
+
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Danh mục món ăn </div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li class="active">
+                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Danh mục</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Kho hàng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminProducts" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-layers"></i><b>FC</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Quản lý kho hàng</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Trạng thái đơn hàng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminOrders" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Cập nhật trạng thái</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Danh sách tài khoản</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a asp-area="Admin" asp-controller="AdminUsers" asp-action="Index">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.form-components.main">Tài khoản</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Phản hồi người dùng</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Phản hồi</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="pcoded-navigatio-lavel" data-i18n="nav.category.other">Báo cáo</div>
+                <ul class="pcoded-item pcoded-left-item">
+                    <li>
+                        <a href="javascript:void(0)">
+                            <span class="pcoded-micon"><i class="ti-direction-alt"></i><b>M</b></span>
+                            <span class="pcoded-mtext" data-i18n="nav.menu-levels.main">Doanh thu</span>
+                            <span class="pcoded-mcaret"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="pcoded-content">
+            <div class="pcoded-inner-content">
+                <div class="main-body">
+                    <div class="page-wrapper">
+
+                        <div class="card borderless-card">
+                            <div class="card-block danger-breadcrumb">
+                                <div class="breadcrumb-header">
+                                    <ul class="breadcrumb-title">
+                                        <li class="breadcrumb-item">
+                                            <a href="#!">
+                                                <i class="icofont icofont-home"></i>
+                                            </a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a asp-area="Admin" asp-controller="Home" asp-action="Index">Bảng điều khiển</a>
+                                        </li>
+                                        <li class="breadcrumb-item">
+                                            <a asp-action="Index">Danh mục</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-sm-12 col-md-6">
+                                
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-sm-12 col-md-6">
+                                <div class="text-right">
+                                    <button id="clear-all-tasks" class="btn btn-danger m-b-0" type="button">
+                                        <a asp-area="Admin" asp-controller="AdminCategories" asp-action="Create">
+                                            <i class="icofont icofont-plus">
+                                                Thêm Danh Mục
+                                            </i>
+                                        </a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-round">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Tên danh mục</th>
+                                        <th scope="col">Hình ảnh</th>
+                                        <th scope="col">Ngày thêm</th>
+                                        <th scope="col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model != null)
+                                    {
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.Name)
+                                                </td>
+                                                <td>
+                                                    <img width="50" height="50" src="~/images/categories/@item.ImageUrl" />
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                                                </td>
+                                                <td>
+                                                    <a asp-action="Edit" asp-route-id="@item.CategoryId">
+                                                        <i class=" text-c-blue f-16 ti-pencil-alt2 m-r-10"></i>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div id="styleSelector">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,845 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\OrderFood.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OrderFood.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\logo.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\catmeo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\catmeo.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\flags\\ENGLISH.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ENGLISH.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\flags\\FRANCE.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\FRANCE.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\flags\\PORTO.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PORTO.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\flags\\SPAIN.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SPAIN.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\mega-menu\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\04.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\mega-menu\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\05.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\mega-menu\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\06.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\pattern2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern2.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\classie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\classie.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\classie\\classie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\classie\\classie.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\assets\\js\\common-pages.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\demo-12.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo-12.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\assets\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\google-maps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\google-maps\\gmaps.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\google-maps\\jquery.gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\google-maps\\jquery.gmaps.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\assets\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\feane\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\feane\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\feane\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\css\\style.css",
+      "PackagePath": "staticwebassets\\feane\\css\\style.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\feane\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\css\\style.scss",
+      "PackagePath": "staticwebassets\\feane\\css\\style.scss"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\feane\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\feane\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\feane\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\Garan.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\Garan.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\feane\\images\\about-img.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\client1.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\client2.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f1.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f1.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f2.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f2.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f3.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f3.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f4.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f4.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f5.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f5.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f6.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f6.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f7.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f7.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f8.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f8.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\f9.png",
+      "PackagePath": "staticwebassets\\feane\\images\\f9.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\feane\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\hero-bg.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\matcha.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\matcha.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\micay.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\micay.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\mirinda.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\mirinda.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\mìcay_bo.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\mìcay_bo.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\o1.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\o1.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\o2.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\o2.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\pepsi.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\pepsi.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\person1.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\person1.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\person2.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\person2.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\tok.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\tok.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\images\\trasua.jpg",
+      "PackagePath": "staticwebassets\\feane\\images\\trasua.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\feane\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\js\\custom.js",
+      "PackagePath": "staticwebassets\\feane\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\feane\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\feane\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\burger.png",
+      "PackagePath": "staticwebassets\\images\\categories\\burger.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\my-cay.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\my-cay.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\nc-co-gas.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\nc-co-gas.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\passta.png",
+      "PackagePath": "staticwebassets\\images\\categories\\passta.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\pyzza.png",
+      "PackagePath": "staticwebassets\\images\\categories\\pyzza.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\tra-sa.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\tra-sa.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\categories\\tteokbokky.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\tteokbokky.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\banh-go-cay.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\banh-go-cay.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\burger.png",
+      "PackagePath": "staticwebassets\\images\\products\\burger.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\my-cay-tht-bo.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\my-cay-tht-bo.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\myrynda.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\myrynda.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\passta.png",
+      "PackagePath": "staticwebassets\\images\\products\\passta.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\pyzza.png",
+      "PackagePath": "staticwebassets\\images\\products\\pyzza.png"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\images\\products\\tra-sa-matcha.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\tra-sa-matcha.jpg"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.Net\\Cuoiky\\OrderFood\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.OrderFood.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.OrderFood.props",
+      "PackagePath": "build\\OrderFood.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.OrderFood.props",
+      "PackagePath": "buildMultiTargeting\\OrderFood.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.OrderFood.props",
+      "PackagePath": "buildTransitive\\OrderFood.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
